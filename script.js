@@ -10,7 +10,7 @@ function timing (){
     let elesecondo = document.querySelector(".secondi")
     
     let today = parseInt((new Date().getTime() ));
-    let date = (new Date('2023-05-02T02:00:00').getTime() );
+    let date = (new Date('2023-07-02T02:00:00').getTime() );
     let delta = parseInt(date - today);
     let day = parseInt(delta / gg);
     let hour = parseInt((delta % gg) / ore);
